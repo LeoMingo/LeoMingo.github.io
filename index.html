@@ -336,15 +336,16 @@
   </head>
   <body onLoad="onLoad()">
     <div class='container'>
-      <h2 style='text-align: center;'>skribbl.io default word list database</h2>
+      <h2 style='text-align: center;'>Skribbl.io/Gartic.io Words Lookup</h2>
       <div>
         <div class="alert alert-warning">
-          Updated from https://skribbliohints.github.io/ with a newer list from https://github.com/wlauyeung/Skribblio-Word-Bank. The metadata for the new words are fillers and are useless.
-          All words are turned to lower case for an easier search 
+          Site forked from skribbliohints.github.io. Updated with a newer list from https://github.com/wlauyeung/Skribblio-Word-Bank. Added the Gartic.io General Word bank.<br> 
+          Gartic_Exclusive is a compiled list of Gartic.io words that are not in the Skribbl.io word bank. <br> 
+          The metadata for the new words are outdated fillers and are useless.<br>
+          The words are turned to lower case for an easier search. 
         </div>
         <p style='margin: 5px 10px;'>
-          Below is a list of words that skribbl.io uses in public games.<br>
-          Enter the hint provided by skribbl.io (e.g. <span style='letter-spacing: 2px;'>_oa__</span>) to search the list.
+          You can look up the word by entering the letter hints in the search bar (e.g. <span style='letter-spacing: 2px;'>_oa__, __-__</span>) to search the list.
         </p>
         <form>
           <input type='checkbox' id='colorCheckbox' name='colorCheckbox' onClick='colorCheckboxOnClick.bind(this)()'>
@@ -358,7 +359,7 @@
           <input type='checkbox' id='showGrapherCheckbox' name='showGrapherCheckbox' onClick='showGrapherCheckboxOnClick.bind(this)()'>
           <label for='showGrapherCheckbox'>Show data grapher</label>
           <div style='float: right;'>
-            Language: <select id="languageSelect">
+            Options: <select id="languageSelect">
               <option value="English">English</option>
               <option value="German">German</option>
               <option value="Spanish">Spanish</option>
